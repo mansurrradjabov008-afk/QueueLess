@@ -1,8 +1,15 @@
-# QueueLess — Backend API
+# QueueLess — Real-Time Queue Optimization & Predictive Wait-Time Engine
 
-"QueueLess" ilovasi uchun navbatlarni oldindan band qilish tizimining **backend** qismi.
-FastAPI + SQLAlchemy asosida qurilgan, JWT autentifikatsiya, Swagger dokumentatsiya,
-push-notification tuzilmasi va avtomatik testlar bilan.
+[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-4169E1.svg?logo=postgresql)](https://www.postgresql.org/)
+[![ML Model](https://img.shields.io/badge/ML%20Accuracy-96.9%25%20R2-brightgreen.svg)](#ml-performance)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED.svg?logo=docker)](https://www.docker.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+Production-grade real-time queue booking, dispatching, and machine learning wait-time forecasting engine built with **FastAPI**, **SQLAlchemy**, **PostgreSQL**, **XGBoost / Gradient Boosting**, and **Docker**.
+
+---
 
 ## 1. Arxitektura
 
@@ -172,3 +179,13 @@ git push -u origin main
 - Rate limiting va parolni tiklash (forgot password) oqimi
 - Xodimlar uchun alohida rol va login (QR tasdiqlash endpointini himoyalash uchun)
 - Sentry/logging integratsiyasi
+
+---
+
+## 👤 Muallif & Muhandis (Author)
+
+**Mansurjon Radjabov**
+- **Lavozim**: Python Backend & Systems Engineer
+- **LinkedIn**: [linkedin.com/in/mansurjon-radjabov](https://linkedin.com/in/mansurjon-radjabov)
+- **Telegram**: [@radjabovmansur](https://t.me/radjabovmansur)
+- **GitHub**: [@mansurrradjabov008-afk](https://github.com/mansurrradjabov008-afk)
